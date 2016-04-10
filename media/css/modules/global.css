@@ -7,13 +7,17 @@ html {
 
 /* line 16, ../../scss/modules/global.scss */
 body {
-  width: 90%;
+  bottom: 0;
+  font-family: "Futura", sans-serif;
   margin: 70px 5%;
   padding: 0;
-  font-family: "Futura", sans-serif;
+  position: absolute;
+  top: 0;
+  width: 90%;
+  overflow: hidden;
 }
 
-/* line 25, ../../scss/modules/global.scss */
+/* line 29, ../../scss/modules/global.scss */
 *,
 *:after,
 *:before {
@@ -24,7 +28,7 @@ body {
   padding: 0;
 }
 
-/* line 33, ../../scss/modules/global.scss */
+/* line 37, ../../scss/modules/global.scss */
 body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;

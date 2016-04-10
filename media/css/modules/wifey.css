@@ -6,49 +6,57 @@
   position: absolute;
 }
 
-/* line 9, ../../scss/modules/wifey.scss */
+/* line 8, ../../scss/modules/wifey.scss */
+.donut {
+  background-color: #ff0000;
+  height: 100px;
+  position: absolute;
+  width: 100px;
+}
+
+/* line 16, ../../scss/modules/wifey.scss */
 #donut-svg #frosting path {
   fill: #F17EE3;
 }
-/* line 12, ../../scss/modules/wifey.scss */
+/* line 19, ../../scss/modules/wifey.scss */
 #donut-svg .sprinkle {
   fill: #fff;
 }
-/* line 16, ../../scss/modules/wifey.scss */
+/* line 23, ../../scss/modules/wifey.scss */
 #donut-svg .color-one {
   fill: #FF6600;
 }
-/* line 20, ../../scss/modules/wifey.scss */
+/* line 27, ../../scss/modules/wifey.scss */
 #donut-svg .color-two {
   fill: #FFFF00;
 }
-/* line 24, ../../scss/modules/wifey.scss */
+/* line 31, ../../scss/modules/wifey.scss */
 #donut-svg .color-three {
   fill: #EFEFEF;
 }
-/* line 28, ../../scss/modules/wifey.scss */
+/* line 35, ../../scss/modules/wifey.scss */
 #donut-svg .color-four {
   fill: #A80020;
 }
 
 @-webkit-keyframes arm {
-  /* line 45, ../../scss/modules/wifey.scss */
+  /* line 52, ../../scss/modules/wifey.scss */
   from {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 46, ../../scss/modules/wifey.scss */
+  /* line 53, ../../scss/modules/wifey.scss */
   70% {
     -webkit-transform: rotate(9.7deg);
   }
 
-  /* line 47, ../../scss/modules/wifey.scss */
+  /* line 54, ../../scss/modules/wifey.scss */
   to {
     -webkit-transform: rotate(0deg);
   }
 }
 
-/* line 50, ../../scss/modules/wifey.scss */
+/* line 57, ../../scss/modules/wifey.scss */
 .right-arm {
   position: absolute;
   left: 400px;
