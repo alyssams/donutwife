@@ -1,0 +1,32 @@
+/* line 10, ../../scss/modules/global.scss */
+html {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 16, ../../scss/modules/global.scss */
+body {
+  width: 90%;
+  margin: 70px 5%;
+  padding: 0;
+  font-family: "Futura", sans-serif;
+}
+
+/* line 25, ../../scss/modules/global.scss */
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 33, ../../scss/modules/global.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  background-color: #b2dfee;
+}

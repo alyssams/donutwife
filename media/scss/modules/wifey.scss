@@ -1,0 +1,64 @@
+#wifey {
+	width: 500px;
+    top: 0;
+    margin: 0 auto;
+    position: absolute;
+}
+
+#donut-svg {
+	#frosting path {
+		fill: #F17EE3;
+	}
+	.sprinkle {
+		fill: #fff;
+	}
+
+	.color-one {
+		fill: #FF6600;
+	}
+
+	.color-two {
+		fill: #FFFF00;
+	}
+
+	.color-three {
+		fill: #EFEFEF;
+	}
+
+	.color-four {
+		fill: #A80020;
+	}
+}
+
+
+// .arm {
+// 	position: absolute;
+//     width: 30%;
+// }
+
+// .right-arm {
+//     right: -60px;
+// }
+
+
+@-webkit-keyframes arm {
+  from { -webkit-transform: rotate(0deg); }
+  70% { -webkit-transform: rotate(9.7deg); }
+  to { -webkit-transform: rotate(0deg); }
+}
+ 
+.right-arm {
+    position: absolute;
+    left: 400px;
+    width: 162px;
+    height: 210px;
+    -webkit-transform-origin: 0% 60%;
+    -webkit-animation: arm 3.9s ease-in-out infinite alternate;
+  
+}
+
+
+
+
+
+

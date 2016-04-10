@@ -1,0 +1,59 @@
+/* line 1, ../../scss/modules/wifey.scss */
+#wifey {
+  width: 500px;
+  top: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+
+/* line 9, ../../scss/modules/wifey.scss */
+#donut-svg #frosting path {
+  fill: #F17EE3;
+}
+/* line 12, ../../scss/modules/wifey.scss */
+#donut-svg .sprinkle {
+  fill: #fff;
+}
+/* line 16, ../../scss/modules/wifey.scss */
+#donut-svg .color-one {
+  fill: #FF6600;
+}
+/* line 20, ../../scss/modules/wifey.scss */
+#donut-svg .color-two {
+  fill: #FFFF00;
+}
+/* line 24, ../../scss/modules/wifey.scss */
+#donut-svg .color-three {
+  fill: #EFEFEF;
+}
+/* line 28, ../../scss/modules/wifey.scss */
+#donut-svg .color-four {
+  fill: #A80020;
+}
+
+@-webkit-keyframes arm {
+  /* line 45, ../../scss/modules/wifey.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 46, ../../scss/modules/wifey.scss */
+  70% {
+    -webkit-transform: rotate(9.7deg);
+  }
+
+  /* line 47, ../../scss/modules/wifey.scss */
+  to {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+/* line 50, ../../scss/modules/wifey.scss */
+.right-arm {
+  position: absolute;
+  left: 400px;
+  width: 162px;
+  height: 210px;
+  -webkit-transform-origin: 0% 60%;
+  -webkit-animation: arm 3.9s ease-in-out infinite alternate;
+}
